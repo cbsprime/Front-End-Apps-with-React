@@ -37,4 +37,4 @@ case 7:
 eightBall='Signs point to yes';
 break;
 }
-console.log(eightBall)
+console.log(eightBall);
