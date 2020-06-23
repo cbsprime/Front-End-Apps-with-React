@@ -52,7 +52,7 @@ console.log('You got the perfect amount of sleep.');
 }
 else if (actualSleepHours > idealSleepHours)
 {
-  console.log("You got " + (idealSleepHours - actualSleepHours) + " more hours of sleep than you need this week.");
+  console.log("You got " + (actualSleepHours -idealSleepHours) + " more hours of sleep than you need this week.");
 
 }
 else if (actualSleepHours < idealSleepHours)
