@@ -95,6 +95,11 @@ chores.pop()
 // Some arrays methods that are available to JavaScript developers include: .join(), .slice(), .splice(), .shift(), .unshift(), and .concat() amongst many others. 
 // Using these built-in methods make it easier to do some common tasks when working with arrays.
 
+// .indexOf() returns the index of the element in the array, given that the element in the array.
+
+const errands = ['Go to the bank', 'Pick up dry cleaning', 'Go grocery shopping'];
+
+const topPriority = errands.indexOf('Pick up dry cleaning');
 
 // Use the .shift() method to remove the first item from the array groceryList.
 
@@ -141,4 +146,14 @@ console.log(nestedArr[1][0]); // Output: 2
 const numberClusters = [[1, 2], [3, 4], [5, 6]];
 
 const target = numberClusters[2][1];
+
+//.slice() will not mutate the array it was called on.
+// array.splice(indexToStart, numberOfIndices, 'stringToAdd');
+secretMessage.splice(6,5, 'know');
+// console.log(secretMessage);
+// Use console.log() and .join() to print the secret message as a sentence.
+console.log(secretMessage.join(' '));
+
+// Output is:
+// Programming is not about what you know it is about what you can figure out. -2015, Chris Pine, Learn to program
 

@@ -13,9 +13,11 @@ secretMessage.push('to', 'program');
 secretMessage [7] ='right';
 // console.log(secretMessage);
 
+// Use an array method to remove the first string of the array.
 secretMessage.shift();
 //console.log(secretMessage);
 
+//Use an array method to add the string Programming to the beginning of the array.
 secretMessage.unshift('Programming');
 // console.log(secretMessage);
 
@@ -27,3 +29,4 @@ console.log(secretMessage.join(' '));
 
 // Output is:
 // Programming is not about what you know it is about what you can figure out. -2015, Chris Pine, Learn to program
+//.slice() will not mutate the array it was called on.
