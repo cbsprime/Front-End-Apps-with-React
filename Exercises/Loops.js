@@ -175,3 +175,16 @@ console.log("And if you don't know, now you know.");
 // Jay-Z
 // Notorious B.I.G.
 // And if you don't know, now you know.
+
+// Each time the outer loop runs, the inner loop completes all iterations.
+
+const animal = 'cat';
+
+for (let i = 0; i < animal.length; i++) {
+  console.log(animal[i]);
+  for (let j = 1; j < 4; j++) {
+    console.log(j);
+  }
+}
+
+// Output is 'c123a123t123'
