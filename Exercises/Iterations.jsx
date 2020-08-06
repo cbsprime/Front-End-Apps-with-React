@@ -37,6 +37,7 @@ fruits.forEach(fruit => {
   // However, .filter() returns an array of elements after filtering out certain elements from the original array. 
   // The callback function for the .filter() method should return true or false depending on the element that is passed to it. 
   // The elements that cause the callback function to return true are added to the new array.
+  // .filter() returns a new array based on the condition in the callback function.
 
 const words = ['chair', 'music', 'pillow', 'brick', 'pen', 'door']; 
 
@@ -157,3 +158,6 @@ const interestingWords = words.filter((word) => {return word.length > 5});
 // Make sure to uncomment the code below and fix the incorrect code before running it
 
 console.log(interestingWords.every((word) => {return word.length > 5}));
+
+// The .some() method returns a boolean value, true or false.
+// Calling .some() on an array returns a boolean value based on the condition in the callback function.
